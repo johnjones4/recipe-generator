@@ -1,0 +1,4 @@
+microdata
+BeautifulSoup
+psycopg2
+psycopg2-binary
