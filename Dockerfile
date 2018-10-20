@@ -1,10 +1,9 @@
-FROM python:2
+FROM python:3.6
 
-WORKDIR /usr/src/app
+COPY . /app
+WORKDIR /app
 
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
-COPY . .
 
-CMD ["python", "scraper.py"]
+CMD ["python", "scrape.py"]
