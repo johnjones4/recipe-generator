@@ -1,4 +1,6 @@
 microdata
-BeautifulSoup
+beautifulsoup4
 psycopg2
 psycopg2-binary
+SQLAlchemy
+python-dotenv
